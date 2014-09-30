@@ -1,0 +1,26 @@
+body { padding-top: 100px; }
+footer { margin-top: 100px; }
+table, td, th { vertical-align: middle; border: none; }
+th { border-bottom: 1px solid #DDD; }
+
+#error_explanation {
+    background-color: #FCBCBC;
+    padding: 10px 10px 0 10px;
+    border-radius: 5px;
+}
+#error_explanation h2 {
+    color: #303030;
+    line-height: 25px;
+    font-size: 1.1em;
+}
+
+#error_explanation ul {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px dashed #FFFFFF;
+    list-style-type: none;
+
+}
+#error_explanation ul > li {
+    margin-left: 50px;
+}
